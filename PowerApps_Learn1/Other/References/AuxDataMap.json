@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"SeokNaverTable\",\"%DataSourceValue.AFD%\":\"[@SeokNaverTable]\",\"%SortFieldName.AFD%\":\"\\\"cr072_image\\\"\",\"%FilterFieldName.AFD%\":\"cr072_image\",\"%PrimaryNameField.AFD%\":\"\\\"cr072_title\\\"\",\"%PrimaryNameFieldDisplayName.AFD%\":\"'제목'\",\"%SearchFieldName.AFD%\":\"\\\"cr072_image\\\",\\\"cr072_poappsid\\\",\\\"cr072_press\\\"\",\"%StartsWithFieldName.AFD%\":\"cr072_image\",\"%DeleteConfirmFieldName.AFD%\":\"cr072_image\",\"%SortDescending.AFD%\":\"SortDescending1\",\"%CopilotSinglePageScreen.ID%\":\"MainScreen1\",\"%BrowseContainer.ID%\":\"BrowseGallery1\",\"%DetailEditContainer.ID%\":\"EditForm1\"}"
+}

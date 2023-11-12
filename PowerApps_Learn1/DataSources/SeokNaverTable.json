@@ -1,0 +1,100 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr072_seoknavertables",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr072_seoknavertable",
+    "MaxGetRowsCount": 500,
+    "Name": "SeokNaverTable",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "담당자",
+      "cr072_image": "이미지",
+      "cr072_poappsid": "__PowerAppsId__",
+      "cr072_press": "언론사",
+      "cr072_seoknavertable_AsyncOperations": "시스템 작업 ",
+      "cr072_seoknavertable_BulkDeleteFailures": "대량 삭제 실패 ",
+      "cr072_seoknavertable_MailboxTrackingFolders": "사서함 자동 추적 폴더",
+      "cr072_seoknavertable_PrincipalObjectAttributeAccesses": "필드 공유",
+      "cr072_seoknavertable_ProcessSession": "프로세스 세션",
+      "cr072_seoknavertable_SyncErrors": "동기화 오류",
+      "cr072_seoknavertableid": "SeokNaverTable",
+      "cr072_summary": "요약",
+      "cr072_title": "제목",
+      "cr072_url": "URL",
+      "createdby": "만든 사람",
+      "createdon": "만든 날짜",
+      "createdonbehalfby": "만든 사람(대리인)",
+      "importsequencenumber": "가져오기 시퀀스 번호",
+      "modifiedby": "수정한 사람",
+      "modifiedon": "수정한 날짜",
+      "modifiedonbehalfby": "수정한 사람(대리인)",
+      "overriddencreatedon": "레코드를 만든 날짜",
+      "owningbusinessunit": "담당 사업부",
+      "owningteam": "담당 팀",
+      "owninguser": "담당 사용자",
+      "statecode": "상태",
+      "statuscode": "상태 설명",
+      "timezoneruleversionnumber": "표준 시간대 규칙 버전 번호",
+      "utcconversiontimezonecode": "UTC 변환 표준 시간대 코드",
+      "versionnumber": "버전 번호"
+    },
+    "PreferredName": "SeokNaverTable",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "SeokNaverTable (뷰)",
+    "Name": "_cr072_seoknavertable_views",
+    "RelatedEntityName": "SeokNaverTable",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "21d11e07-5e49-457a-ab84-8a4c1aaeb7bd": "비활성 SeokNaverTable",
+      "285f49d8-518a-4219-b4dd-ac7179631b04": "SeokNaverTable의 상세하게 찾기 보기",
+      "86e43d46-ac8d-42b4-8377-19f73a80ee09": "SeokNaverTable 조회 보기",
+      "ba3d60f3-6040-4916-a376-5a0a0f1a6dee": "활성 SeokNaverTable",
+      "cc1aa2dd-6981-4bfe-9293-b02bc95854b2": "SeokNaverTable 관련 보기"
+    }
+  },
+  {
+    "DisplayName": "상태 (SeokNaverTable)",
+    "Name": "cr072_seoknavertable_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "활성",
+      "1": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "SeokNaverTable"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "SeokNaverTable",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "상태 설명 (SeokNaverTable)",
+    "Name": "cr072_seoknavertable_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "활성",
+      "2": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "SeokNaverTable"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "SeokNaverTable",
+    "Type": "OptionSetInfo"
+  }
+]

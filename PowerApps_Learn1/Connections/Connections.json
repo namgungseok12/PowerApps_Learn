@@ -1,0 +1,91 @@
+{
+  "49d63c55-7f17-4197-909c-5a045271612d": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Excel Online(Business)",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1658/1.0.1658.3452/excelonlinebusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excelonlinebusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "b91da64d-4368-4dd1-abeb-34b23f4725aa"
+    ],
+    "id": "49d63c55-7f17-4197-909c-5a045271612d"
+  },
+  "8fbbb9fa-8399-441e-9b6d-b909198532f3": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Excel Online(Business)",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1658/1.0.1658.3452/excelonlinebusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excelonlinebusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "groups%252F5c360189-9839-4b02-b3ce-e3890b194345,b%2521PhS8usH1ckKW99ggbEIoe8tBsxwuoY5Pj2VHNdYS2WYCCrr1CcRVRaQ7QDlcW5wc,01OKSULC2AWVSDCNQCFVDLKN7TCXVR5LHJ": {
+        "dataSources": {
+          "표1": {
+            "tableName": "{1BDF3C15-44C3-44B0-B32D-AADDB58B8C2A}"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "표1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "8fbbb9fa-8399-441e-9b6d-b909198532f3"
+  },
+  "b91da64d-4368-4dd1-abeb-34b23f4725aa": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "논리 흐름",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "49d63c55-7f17-4197-909c-5a045271612d": {
+          "value": "shared_excelonlinebusiness"
+        },
+        "workflowEntityId": {
+          "value": "e5ab28d0-fa80-ee11-8178-000d3ad75091"
+        },
+        "workflowName": {
+          "value": "bc195a36-2e3a-4607-cca2-762915971986"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_excelonlinebusiness": {
+          "value": "49d63c55-7f17-4197-909c-5a045271612d"
+        },
+        "workflowEntityId": {
+          "value": "e5ab28d0-fa80-ee11-8178-000d3ad75091"
+        },
+        "workflowName": {
+          "value": "bc195a36-2e3a-4607-cca2-762915971986"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "PAStart"
+    ],
+    "dependencies": {
+      "shared_excelonlinebusiness": "49d63c55-7f17-4197-909c-5a045271612d"
+    },
+    "dependents": [],
+    "id": "b91da64d-4368-4dd1-abeb-34b23f4725aa"
+  }
+}
